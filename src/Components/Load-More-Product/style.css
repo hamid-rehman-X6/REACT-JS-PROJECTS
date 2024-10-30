@@ -1,0 +1,36 @@
+.main-container {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.image-Container {
+    /* background-color: red; */
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 350px);
+    margin: 10px 14px;
+}
+
+.products {
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 8px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+}
+
+.load-btn {
+    border: none;
+    outline: none;
+    font-size: 28px;
+    border-radius: 24px;
+    padding: 12px 28px;
+    margin: 20px;
+    background-color: rgb(126, 47, 126);
+    color: white;
+}

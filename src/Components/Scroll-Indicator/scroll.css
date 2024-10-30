@@ -1,0 +1,26 @@
+.container-scroll {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: rgb(19, 111, 218);
+    text-align: center;
+    color: white;
+}
+
+.scroll-bar-container {
+    width: 100%;
+    height: 10px;
+    background: #aaf900;
+}
+
+.current-scroll {
+    height: 10px;
+    background: #8b02b5;
+    width: 0%;
+}
+
+.data-container {
+    margin-top: 100px;
+
+}

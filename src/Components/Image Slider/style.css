@@ -1,0 +1,64 @@
+.image-slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 500px;
+    gap: 50px;
+    /* background-color: wheat; */
+}
+
+.current-image {
+
+    height: 60%;
+    margin-left: 80%;
+    border-radius: 8px;
+    box-shadow: 4px 0 10px #444;
+
+}
+
+.arrow {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    /* color: white; */
+    cursor: pointer;
+}
+
+.arrow-left {
+    left: 6rem;
+}
+
+.arrow-right {
+    left: 70rem;
+}
+
+.circle-indicator {
+    display: flex;
+    position: absolute;
+    bottom: 3rem;
+
+    height: 10px;
+    gap: 10px;
+    margin-left: 90%;
+}
+
+.current-indicator {
+    background-color: rgb(188, 188, 188);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin: 0 0.2rem;
+    cursor: pointer;
+}
+
+.hide-current-image {
+    display: none;
+}
+
+.update {
+    background-color: rgb(20, 20, 20);
+}

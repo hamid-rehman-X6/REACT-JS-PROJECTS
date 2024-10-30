@@ -1,0 +1,16 @@
+.heading {
+    display: flex;
+    justify-content: center;
+    /* gap: 20px; */
+}
+
+.tab-item {
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+.tab-item.active {
+    background-color: darkseagreen;
+}
